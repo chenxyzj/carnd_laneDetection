@@ -2,7 +2,7 @@
 
 When we drive, we use our eyes to decide where to go. The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle. Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm.
 
-** Reflection
+**Reflection**
 
 The pipeline consisted of 5 steps. 
 
@@ -15,6 +15,6 @@ The pipeline consisted of 5 steps.
 7. Lines are extrapolated using the intersection point of right and left dominant line.
 8. Finally, line image with original image are combined.
 
-** Shortcomings
+**Shortcomings**
 
 Our system is limited to the straight roads due to the line model and our manually defined mask area.
